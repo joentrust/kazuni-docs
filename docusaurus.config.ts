@@ -14,8 +14,8 @@ const config: Config = {
   url: 'https://docs.usekazuni.com',
   baseUrl: '/',
 
-  organizationName: 'kazunihq',
-  projectName: 'docs',
+  organizationName: 'joentrust',
+  projectName: 'kazuni-docs',
 
   onBrokenLinks: 'throw',
 
@@ -43,7 +43,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/kazunihq/docs/tree/main/',
+          editUrl: 'https://github.com/joentrust/kazuni-docs/tree/main/',
         },
         blog: false,
         theme: {
@@ -101,7 +101,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/kazunihq/kazuni-js',
+          href: 'https://github.com/joentrust/kazuni-js',
           label: 'GitHub',
           position: 'right',
         },
@@ -136,7 +136,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/kazunihq/kazuni-js',
+              href: 'https://github.com/joentrust/kazuni-js',
             },
           ],
         },
