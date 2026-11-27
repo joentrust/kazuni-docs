@@ -25,3 +25,5 @@ yarn-error.log*
 
 # Worktrees
 /.claude/worktrees
+.vercel
+.env*
