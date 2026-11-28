@@ -27,6 +27,7 @@ const result = await kazuni.send.email({
 |---|---|---|---|
 | `from` | `string` | Yes | The sender address: `hello@acme.example` or `Acme <hello@acme.example>`. The domain must be verified for your organization in the Kazuni dashboard - see [Sending Domains](/docs/platform/sending-domains). |
 | `to` | `string` | Yes | A single recipient email address. Only one recipient is supported per request - there is no `cc`, `bcc`, or array of recipients today. |
+| `replyTo` | `string \| string[]` | No | The address replies should go to, or a list of up to 10. When omitted, replies go to the `from` address. Use it when you send from an address that does not receive mail, such as `info@mail.acme.example`. |
 | `subject` | `string` | Yes | The email subject line. |
 | `html` | `string` | Yes | The HTML body of the email. |
 | `text` | `string` | No | A plain-text fallback body. When omitted, recipients whose email client doesn't render HTML see no fallback content. |

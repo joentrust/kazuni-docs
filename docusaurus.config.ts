@@ -101,7 +101,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/joentrust/kazuni-js',
+          href: 'https://github.com/joentrust/kazuni-sdk',
           label: 'GitHub',
           position: 'right',
         },
@@ -136,7 +136,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/joentrust/kazuni-js',
+              href: 'https://github.com/joentrust/kazuni-sdk',
             },
           ],
         },
