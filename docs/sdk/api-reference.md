@@ -159,6 +159,7 @@ Send a single transactional email. Requires an API key with the **Send email** p
 |---|---|---|---|
 | `from` | `string` | Yes | `addr@domain` or `Name <addr@domain>`. Domain must be verified. |
 | `to` | `string` | Yes | A single recipient address. No `cc`, `bcc`, or multiple recipients. |
+| `replyTo` | `string` or `string[]` | No | Where replies go. One address or up to 10. Defaults to the `from` address. |
 | `subject` | `string` | Yes | Max 998 characters. |
 | `html` | `string` | Yes | The HTML body. |
 | `text` | `string` | No | Plain-text fallback. |
